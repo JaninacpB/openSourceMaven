@@ -1,0 +1,19 @@
+package inputSmallOutputBig;
+
+import java.util.Scanner;
+
+public class inputOutputChangeToUppercase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.print("Enter Text: ");  
+		
+		Scanner sc= new Scanner(System.in);  
+		String userInput= sc.nextLine();  
+		
+		System.out.print(userInput.toUpperCase());
+		
+		sc.close();
+	}
+}
